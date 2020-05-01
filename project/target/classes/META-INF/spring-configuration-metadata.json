@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.itlize.project.entity.User",
+      "sourceType": "com.itlize.project.entity.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "PRODUCT.ribbon.NFLoadBalancerRuleClassName",
+      "type": "java.lang.String",
+      "description": "Description for PRODUCT.ribbon.NFLoadBalancerRuleClassName."
+    },
+    {
+      "name": "user.last-updated",
+      "type": "java.util.Date",
+      "sourceType": "com.itlize.project.entity.User"
+    },
+    {
+      "name": "user.password",
+      "type": "java.lang.String",
+      "sourceType": "com.itlize.project.entity.User"
+    },
+    {
+      "name": "user.projects",
+      "type": "java.util.Collection<com.itlize.project.entity.Project>",
+      "sourceType": "com.itlize.project.entity.User"
+    },
+    {
+      "name": "user.role",
+      "type": "com.itlize.project.entity.Role",
+      "sourceType": "com.itlize.project.entity.User"
+    },
+    {
+      "name": "user.time-create",
+      "type": "java.util.Date",
+      "sourceType": "com.itlize.project.entity.User"
+    },
+    {
+      "name": "user.title",
+      "type": "java.lang.String",
+      "sourceType": "com.itlize.project.entity.User"
+    },
+    {
+      "name": "user.token",
+      "type": "java.lang.String",
+      "sourceType": "com.itlize.project.entity.User"
+    },
+    {
+      "name": "user.username",
+      "type": "java.lang.String",
+      "sourceType": "com.itlize.project.entity.User"
+    }
+  ],
+  "hints": []
+}
