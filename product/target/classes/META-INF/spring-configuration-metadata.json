@@ -1,0 +1,52 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.itlize.product.entity.User",
+      "sourceType": "com.itlize.product.entity.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.last-updated",
+      "type": "java.util.Date",
+      "sourceType": "com.itlize.product.entity.User"
+    },
+    {
+      "name": "user.password",
+      "type": "java.lang.String",
+      "sourceType": "com.itlize.product.entity.User"
+    },
+    {
+      "name": "user.projects",
+      "type": "java.util.Collection<com.itlize.product.entity.Project>",
+      "sourceType": "com.itlize.product.entity.User"
+    },
+    {
+      "name": "user.role",
+      "type": "com.itlize.product.entity.Role",
+      "sourceType": "com.itlize.product.entity.User"
+    },
+    {
+      "name": "user.time-create",
+      "type": "java.util.Date",
+      "sourceType": "com.itlize.product.entity.User"
+    },
+    {
+      "name": "user.title",
+      "type": "java.lang.String",
+      "sourceType": "com.itlize.product.entity.User"
+    },
+    {
+      "name": "user.token",
+      "type": "java.lang.String",
+      "sourceType": "com.itlize.product.entity.User"
+    },
+    {
+      "name": "user.username",
+      "type": "java.lang.String",
+      "sourceType": "com.itlize.product.entity.User"
+    }
+  ],
+  "hints": []
+}
